@@ -15,7 +15,7 @@ export function Popularity(props) {
         alt="popularity"
         width="100%"
       />
-      <span>{Math.floor(props.popularity) + "%"}</span>
+      <label>{Math.floor(props.popularity) + "%"}</label>
     </div>
   );
 }
