@@ -24,7 +24,7 @@ export function fetchUpcomingMovies(pageNo) {
 
   return Axios.get(encodedURI).then(function(response) {
     response.data.results.sort(function(a, b) {
-      return b.vote_count - a.vote_count;
+      return b.popularity - a.popularity;
     });
     response.data.results.map((item, index) => {
       item["poster_path"] =
