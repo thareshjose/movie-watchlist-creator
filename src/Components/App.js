@@ -12,7 +12,7 @@ function App() {
   const store = createStore(reducer);
   return (
     <Provider store={store}>
-      <Router history={hashHistory} basename="/">
+      <Router basename="/">
         <Switch>
           <Route path="/" exact strict component={Home} />
           <Route path="/watch-list" exact strict component={WatchList} />
