@@ -56,7 +56,7 @@ const mapDispatchToProps = dispatch => {
 };
 
 class Home extends React.PureComponent {
-  componentWillMount() {
+  componentDidMount() {
     api.fetchUpcomingMovies(this.props.page).then(data => {
       this.props.updateMovies(data);
       this.props.setLoading(false);
