@@ -59,7 +59,9 @@ class Home extends React.PureComponent {
   componentDidMount() {
     api.fetchUpcomingMovies(this.props.page).then(data => {
       this.props.updateMovies(data);
-      this.props.setLoading(false);
+      setTimeout(() => {
+        this.props.setLoading(false);
+      }, 3000);
     });
   }
 
@@ -104,7 +106,6 @@ class Home extends React.PureComponent {
     if (loading) {
       return <Loader />;
     }
-
     var movieOverview = movies[movieCount].overview;
     if (movieOverview.length > 420) {
       movieOverview = movieOverview.substring(0, 380) + " [...]";
