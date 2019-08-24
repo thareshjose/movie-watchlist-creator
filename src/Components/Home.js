@@ -5,6 +5,7 @@ import closeIcon from "../images/close.png";
 import LikeMovie from "./LikeMovie";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
+import Loader from "./Loader";
 
 export function Popularity(props) {
   return (
@@ -101,7 +102,7 @@ class Home extends React.PureComponent {
     const movies = this.props.movies;
     const movieCount = this.props.movieCount;
     if (loading) {
-      return <p>Loading...</p>;
+      return <Loader />;
     }
 
     var movieOverview = movies[movieCount].overview;
