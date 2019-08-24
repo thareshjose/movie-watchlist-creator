@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/movie-watchlist-creator/static/css/main.6702b7f4.chunk.css",
-    "main.js": "/movie-watchlist-creator/static/js/main.07f8e1bc.chunk.js",
-    "main.js.map": "/movie-watchlist-creator/static/js/main.07f8e1bc.chunk.js.map",
+    "main.css": "/movie-watchlist-creator/static/css/main.7e183883.chunk.css",
+    "main.js": "/movie-watchlist-creator/static/js/main.8f883982.chunk.js",
+    "main.js.map": "/movie-watchlist-creator/static/js/main.8f883982.chunk.js.map",
     "runtime~main.js": "/movie-watchlist-creator/static/js/runtime~main.f583a6b2.js",
     "runtime~main.js.map": "/movie-watchlist-creator/static/js/runtime~main.f583a6b2.js.map",
     "static/js/2.bc829e5e.chunk.js": "/movie-watchlist-creator/static/js/2.bc829e5e.chunk.js",
     "static/js/2.bc829e5e.chunk.js.map": "/movie-watchlist-creator/static/js/2.bc829e5e.chunk.js.map",
     "index.html": "/movie-watchlist-creator/index.html",
-    "precache-manifest.3bc80f5ee06c2741deb5695969cf878b.js": "/movie-watchlist-creator/precache-manifest.3bc80f5ee06c2741deb5695969cf878b.js",
+    "precache-manifest.245ae6ef76ac59eb5968018410777229.js": "/movie-watchlist-creator/precache-manifest.245ae6ef76ac59eb5968018410777229.js",
     "service-worker.js": "/movie-watchlist-creator/service-worker.js",
-    "static/css/main.6702b7f4.chunk.css.map": "/movie-watchlist-creator/static/css/main.6702b7f4.chunk.css.map",
+    "static/css/main.7e183883.chunk.css.map": "/movie-watchlist-creator/static/css/main.7e183883.chunk.css.map",
     "static/media/trending-icon.png": "/movie-watchlist-creator/static/media/trending-icon.5d0264c0.png"
   }
 }
